@@ -68,4 +68,4 @@ Temporary Items
 *.bak
 
 # Secrets
-QRData.txt
+QRData.sh

@@ -8,6 +8,7 @@
  * which will be converted to `config.js` while starting. For more information
  * see https://docs.magicmirror.builders/configuration/introduction.html#enviromnent-variables
  */
+
 let config = {
 	address: "localhost",	// Address to listen on, can be:
 							// - "localhost", "127.0.0.1", "::1" to listen on loopback interface
@@ -50,7 +51,7 @@ let config = {
 			header: "Wifi",
 			position: 'bottom_left', // change the position according to your need best position is either bottom right or left.
 			config: {
-				text: '<WIFI QR DATA>', // enter your message here.
+				text: "${QRDATA}", // enter your message here.
 				showRaw: false, // true = to show the text, false = to hide the text.
 				imageSize: 150, // size is in px (both the height and with are equal).
 				colorDark: "#fff", // set qrcode px color.
