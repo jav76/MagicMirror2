@@ -58,6 +58,13 @@ let config = {
 				colorLight: "#000" // set backgroud background color(by default color is BLACK).
 			}
 		},
+		{
+			module: 'MMM-NetworkConnection',
+			position: 'bottom_left',
+			config: {
+				updateInterval: 300000, // 5mins
+			}
+		}
 	]
 };
 

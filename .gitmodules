@@ -1,3 +1,6 @@
 [submodule "modules/MMM-QRCode"]
 	path = modules/MMM-QRCode
 	url = https://github.com/uxigene/MMM-QRCode
+[submodule "modules/MMM-NetworkConnection"]
+	path = modules/MMM-NetworkConnection
+	url = https://github.com/slametps/MMM-NetworkConnection
