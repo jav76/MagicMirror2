@@ -45,6 +45,18 @@ let config = {
 			module: "clock",
 			position: "top_left"
 		},
+		{
+			module: 'MMM-QRCode',
+			header: "Wifi",
+			position: 'bottom_left', // change the position according to your need best position is either bottom right or left.
+			config: {
+				text: '<WIFI QR DATA>', // enter your message here.
+				showRaw: false, // true = to show the text, false = to hide the text.
+				imageSize: 150, // size is in px (both the height and with are equal).
+				colorDark: "#fff", // set qrcode px color.
+				colorLight: "#000" // set backgroud background color(by default color is BLACK).
+			}
+		},
 	]
 };
 
