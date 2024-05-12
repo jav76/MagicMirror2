@@ -66,3 +66,6 @@ Temporary Items
 *.orig
 *.rej
 *.bak
+
+# Secrets
+QRData.txt
