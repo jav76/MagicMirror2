@@ -8,6 +8,6 @@ cd ~/git/MagicMirror2/modules
 cd MMM-QRCode && npm i
 cd ..
 
-npm install --global speedtest-net
-cd MMM-NetworkConnection && npm i
+cd internet-monitor && npm i
 cd ..
+

@@ -59,11 +59,19 @@ let config = {
 			}
 		},
 		{
-			module: 'MMM-NetworkConnection',
-			position: 'bottom_left',
-			config: {
-				updateInterval: 300000, // 5mins
-			}
+			module: 'internet-monitor',
+            position: 'bottom_left',
+            header: 'Internet Monitor',
+            config:{
+                type: '',
+                maxTime: 20000,
+                updateInterval: 300000,
+                verbose: false,
+                displayStrength: false,
+                displaySpeed: true,
+                strengthIconSize: 80,
+                maxGaugeScale: 100,
+            },
 		}
 	]
 };
