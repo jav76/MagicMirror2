@@ -1,0 +1,3 @@
+[submodule "modules/MMM-QRCode"]
+	path = modules/MMM-QRCode
+	url = https://github.com/uxigene/MMM-QRCode
