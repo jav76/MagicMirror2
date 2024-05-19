@@ -13,3 +13,6 @@ cd ..
 
 cd MMM-GoogleMapsTraffic && npm i
 cd ..
+
+cd MMM-GoogleTrafficTimes && npm i
+cd ..
