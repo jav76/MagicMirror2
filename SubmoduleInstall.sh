@@ -11,3 +11,5 @@ cd ..
 cd internet-monitor && npm i
 cd ..
 
+cd MMM-GoogleMapsTraffic && npm i
+cd ..

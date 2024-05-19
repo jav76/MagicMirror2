@@ -30,7 +30,7 @@ let config = {
 
 	language: "en",
 	locale: "en-US",
-	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
+	logLevel: ["INFO", "LOG", "WARN", "ERROR", "DEBUG"], // Add "DEBUG" for even more logging
 	timeFormat: 12,
 	units: "imperial",
 
@@ -72,6 +72,29 @@ let config = {
                 strengthIconSize: 80,
                 maxGaugeScale: 100,
             },
+		},
+		{
+            module: 'MMM-GoogleMapsTraffic',
+            position: 'top_right',
+            config: {
+                key: '${GOOGLE_MAPS_API_KEY}',
+                lat: 41.1938329,
+                lng: -81.3937327,
+                height: '300px',
+                width: '300px',
+				zoom: 10,
+				updateInterval: 300000,
+                styledMapType: "transparent",
+                disableDefaultUI: true,
+                backgroundColor: 'hsla(0, 0%, 0%, 0)',
+                // markers: [
+                //     {
+                //         lat: 37.8262316,
+                //         lng: -122.2920196,
+                //         fillColor: '#9966ff'
+                //     },
+                // ],
+            }
 		}
 	]
 };

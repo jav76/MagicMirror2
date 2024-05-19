@@ -4,3 +4,6 @@
 [submodule "modules/internet-monitor"]
 	path = modules/internet-monitor
 	url = https://github.com/BrianHepler/internet-monitor
+[submodule "modules/MMM-GoogleMapsTraffic"]
+	path = modules/MMM-GoogleMapsTraffic
+	url = https://github.com/vicmora/MMM-GoogleMapsTraffic

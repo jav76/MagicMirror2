@@ -68,4 +68,4 @@ Temporary Items
 *.bak
 
 # Secrets
-QRData.sh
+*config.env
