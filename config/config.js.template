@@ -78,13 +78,14 @@ let config = {
             position: 'top_right',
             config: {
                 key: '${GOOGLE_MAPS_API_KEY}',
-                lat: 41.1938329,
-                lng: -81.3937327,
-                height: '300px',
+                lat: 41.1206716,
+                lng: -81.5603137,
+                height: '400px',
                 width: '300px',
-				zoom: 10,
+				zoom: 8,
+				mapTypeId: 'hybrid',
 				updateInterval: 300000,
-                styledMapType: "transparent",
+                styledMapType: 'customStyle',
                 disableDefaultUI: true,
                 backgroundColor: 'hsla(0, 0%, 0%, 0)',
                 // markers: [
@@ -95,7 +96,36 @@ let config = {
                 //     },
                 // ],
             }
-		}
+		},
+		{
+            module: 'MMM-GoogleTrafficTimes',
+            position: 'top_right',
+            config: {
+                key: '${GOOGLE_MAPS_API_KEY}',
+                origin: '${HOME_ADDRESS}',
+                destinations: [
+			        {
+			        	name: "Work",
+			        	address: "${WORK_ADDRESS}"
+			        },
+			        {
+			        	name: "Parents",
+			        	address: "${PARENTS_ADDRESS}"
+			        }
+		        ],
+                updateInterval: 300000,
+                avoidHighways: false,
+                avoidTolls: true,
+                mode: 'driving',
+                language: "en-EN",
+                offsetTime: 10,
+		        lastUpdate: true,
+		        timeLastUpdateWarning: 1,
+                horizontalLayout: false,
+                schedules: [],
+                debug: false
+            },
+        }
 	]
 };
 

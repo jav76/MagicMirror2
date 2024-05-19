@@ -7,3 +7,6 @@
 [submodule "modules/MMM-GoogleMapsTraffic"]
 	path = modules/MMM-GoogleMapsTraffic
 	url = https://github.com/vicmora/MMM-GoogleMapsTraffic
+[submodule "modules/MMM-GoogleTrafficTimes"]
+	path = modules/MMM-GoogleTrafficTimes
+	url = https://github.com/Jacopo1891/MMM-GoogleTrafficTimes
